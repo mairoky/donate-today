@@ -8,8 +8,13 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
+    font-weight: 700;
     color: black;
+}
+
+section {
+    margin-bottom: 100px;
 }
 
 /* Hero Section Start */
@@ -30,30 +35,95 @@ h1 {
 }
 
 .hero-content h1 {
+    font-size: 50px;
     color: white;
-    font-weight: 900;
 }
 
 .hero-content p {
     margin: 20px 0;
-    padding: 0 80px;
+    padding: 0 50px;
     line-height: 25px;
     color: white;
-    font-size: 16px;
 }
 
 .btn {
     text-decoration: none;
-    font-size: 16px;
     color: white;
-    background-color: #fb7979;
+    background-color: #f74444;
     padding: 10px 20px;
     border-radius: 5px;
-    display: inline-block;
 }
 
 .btn-cta {
     margin-top: 10px;
+    display: inline-block;
 }
 
 /* Hero Section End */
+/* Donate Item Section Start */
+.donate {}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-heading {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-heading p {
+    margin: 10px 0;
+    line-height: 25px;
+    color: #474747;
+}
+
+.donate-amount {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.amount {
+    width: 15%;
+    padding: 30px 0;
+    text-align: center;
+    background-color: #fbf6f6;
+    color: #474747;
+}
+
+.active {
+    border: 2px solid #f74444;
+    color: #f74444;
+    background-color: #ffeeee;
+    border-radius: 5px;
+}
+
+.custom-amount {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.custom-amount input {
+    margin: 0 5%;
+    width: 90%;
+    height: 30px;
+    text-align: center;
+    color: #fbf6f6;
+    font-size: 16px;
+    border-style: none;
+    border-bottom: 1px solid grey;
+}
+
+.donate-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Donate Item Section End */
