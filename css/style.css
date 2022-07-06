@@ -1,10 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-body {
     font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -15,6 +13,7 @@ h1 {
 
 p {
     color: #777777;
+    line-height: 1.5;
 }
 
 section {
@@ -46,7 +45,6 @@ section {
 .hero-content p {
     margin: 20px 0;
     padding: 0 50px;
-    line-height: 25px;
     color: white;
 }
 
@@ -159,6 +157,40 @@ section {
 }
 
 /* Donate Plan Section End */
+/* Blog Section Start */
+.blogs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.single-blog {
+    width: 27%;
+    padding: 50px 30px;
+    background-color: white;
+    border-radius: 5px;
+    min-height: 350px;
+    box-shadow: 0px 3px 7px 0px rgba(28, 31, 33, 0.15);
+}
+
+.single-blog:nth-child(1) {
+    background-color: #f74444;
+}
+
+.single-blog p:nth-child(2) {
+    font-size: 14px;
+    color: #314584;
+}
+
+.single-blog p:nth-child(3) {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.single-blog a {
+    color: black !important;
+}
+
+/* Blog Section End */
 /* Newsletter Section Start */
 .subscribe {
     width: 65%;
@@ -203,7 +235,7 @@ section {
 
 /* Footer Start */
 footer {
-    padding: 40px 0;
+    padding: 50px 0;
     width: 100%;
     background: black;
     text-align: center;
