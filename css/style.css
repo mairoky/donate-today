@@ -111,13 +111,15 @@ section {
 }
 
 .custom-amount input {
-    margin: 0 5%;
-    width: 90%;
+    margin: 0 4%;
+    width: 92%;
     height: 30px;
     text-align: center;
-    color: #fbf6f6;
+    color: #272727;
     font-size: 16px;
-    border-style: none;
+    font-weight: 500;
+    border: none;
+    outline: none;
     border-bottom: 1px solid grey;
 }
 
@@ -128,6 +130,7 @@ section {
 }
 
 /* Donate Item Section End */
+/* Donate Plan Section Start */
 .plan-item {
     display: flex;
     justify-content: space-evenly;
@@ -154,3 +157,67 @@ section {
 .single-item h3 {
     margin: 20px 0;
 }
+
+/* Donate Plan Section End */
+/* Newsletter Section Start */
+.subscribe {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9cece;
+    padding: 70px 0;
+    border-radius: 2px;
+}
+
+.subscribe-form {
+    height: 45px;
+    display: flex;
+}
+
+.email-input,
+.submit-button {
+    border: none;
+    outline: none;
+}
+
+.email-input {
+    width: 250px;
+    background: #ecebeb;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 0 5px;
+}
+
+.submit-button {
+    padding: 0 50px;
+    background-color: #f74444;
+    color: white;
+    cursor: pointer;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/* Newsletter Section End */
+
+/* Footer Start */
+footer {
+    padding: 40px 0;
+    width: 100%;
+    background: black;
+    text-align: center;
+    color: white;
+}
+
+footer h2 {
+    margin-bottom: 20px;
+    color: #f74444;
+    font-style: italic;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Footer End */
